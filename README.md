@@ -5,8 +5,7 @@
 - Paper : https://arxiv.org/abs/2403.00712
 
 ## 3D Scene Understanding
-**PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness**
-- Homepage : https://astra-vision.github.io/PaSCo/
-- Paper : https://arxiv.org/abs/2312.02158
+**Bi-directional Contextual Attention for 3D Dense Captioning**
+- Paper : https://arxiv.org/pdf/2408.06662
 
 ## Generation
