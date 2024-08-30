@@ -1,4 +1,15 @@
 # ECCV-2024-Oral
+- [2D Scene Understanding](#2DSU)
+- [3D Scene Understanding](#3DSU)
+- [NeRF & Gaussian](#NG)
+- [2D Generation](#Gen)
+- [3D Generation](#3DGen)
+- [Human](#Human)
+- [Video](#Video)
+- [MLLM](#MLLM)
+- [Transformer](#Transformer)
+
+<a name="2DSU"></a>
 ## 2D Scene Understanding
 **Diffusion Models for Zero-Shot Open-Vocabulary Segmentation**
 - Homepage : https://www.robots.ox.ac.uk/~vgg/research/ovdiff/
@@ -11,6 +22,10 @@
 **Relation DETR: Exploring Explicit Position Relation Prior for Object Detection**
 - Homepage : https://github.com/xiuqhou/Relation-DETR
 - Paper : https://arxiv.org/abs/2407.11699
+
+**WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models**
+- Homepage : https://github.com/xjwu1024/WPS-SAM
+- Paper : https://arxiv.org/abs/2407.10131
 
 **Learning Modality-agnostic Representation for Semantic Segmentation from Any Modalities**
 - Homepage : https://vlislab22.github.io/Any2Seg/
@@ -63,6 +78,15 @@
 - Homepage : https://github.com/haoqiwang/sinder
 - Paper : https://arxiv.org/abs/2407.16826
 
+**Emergent Visual-Semantic Hierarchies in Image-Text Representations**
+- Homepage : https://tau-vailab.github.io/hierarcaps/
+- Paper : https://arxiv.org/abs/2407.08521
+
+**AlignDiff: Aligning Diffusion Models for General Few-Shot Segmentation**
+- Homepage : https://github.com/RogerQi/AlignDiff
+- Paper : https://motion.cs.illinois.edu/papers/ECCV2024-Qiu-AlignDiff.pdf
+
+<a name="3DSU"></a>
 ## 3D Scene Understanding
 **OmniNOCS: A unified NOCS dataset and model for 3D lifting of 2D objects**
 - Homepage : https://omninocs.github.io/
@@ -106,7 +130,7 @@
 - Homepage : https://fraunhoferhhi.github.io/spvloc/
 - Paper : https://arxiv.org/abs/2404.10527
 
-
+<a name="NG"></a>
 ## NeRF & Gaussian
 **Gaussian Frosting: Editable Complex Radiance Fields with Real-Time Rendering**
 - Homepage : https://anttwo.github.io/frosting/
@@ -132,7 +156,12 @@
 - Homepage : https://jiangwenpl.github.io/FisherRF/
 - Paper : https://arxiv.org/abs/2311.17874
 
-## Generation
+<a name="Gen"></a>
+## 2D Generation
+**Adversarial Diffusion Distillation**
+- Homepage : https://github.com/Stability-AI/generative-models
+- Paper : https://arxiv.org/abs/2311.17042
+
 **TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering**
 - Homepage : https://jingyechen.github.io/textdiffuser2/
 - Paper : https://arxiv.org/abs/2311.16465
@@ -164,6 +193,7 @@
 - Homepage : https://kailinli.github.io/SemGrasp/
 - Paper : https://arxiv.org/abs/2404.03590
 
+<a name="3DGen"></a>
 ## 3D Generation
 **LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation**
 - Homepage : https://me.kiui.moe/lgm/
@@ -173,10 +203,15 @@
 - Homepage : https://flashtex.github.io/
 - Paper : https://arxiv.org/abs/2402.13251
 
+**Pyramid Diffusion for Fine 3D Large Scene Generation**
+- Homepage : https://github.com/yuhengliu02/pyramid-discrete-diffusion
+- Paper : https://arxiv.org/abs/2311.12085
+
 **COHO: Context-Sensitive City-Scale Hierarchical Urban Layout Generation**
 - Homepage : https://arking1995.github.io/ContextLayout/
 - Paper : https://arxiv.org/abs/2407.11294
 
+<a name="Human"></a>
 ## Human
 **TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation**
 - Homepage : https://ggxxii.github.io/texdreamer/
@@ -186,9 +221,17 @@
 - Homepage : https://lijiaman.github.io/projects/chois/
 - Paper : https://arxiv.org/abs/2312.03913
 
+**Beat-It: Beat-Synchronized Multi-Condition 3D Dance Generation**
+- Homepage : https://zikaihuangscut.github.io/Beat-It/
+- Paper : https://arxiv.org/abs/2407.07554
+
 **Beyond the Contact: Discovering Comprehensive Affordance for 3D Objects from Pre-trained 2D Diffusion Models**
 - Homepage : https://snuvclab.github.io/coma/
 - Paper : https://arxiv.org/abs/2401.12978
+
+**A Simple Baseline for Spoken Language to Sign Language Translation with 3D Avatars**
+- Homepage : https://github.com/FangyunWei/SLRT/tree/main/Spoken2Sign
+- Paper : https://arxiv.org/abs/2401.04730
 
 **ReSyncer: Rewiring Style-based Generator for Unified Audio-Visually Synced Facial Performer**
 - Homepage : https://guanjz20.github.io/projects/ReSyncer/
@@ -198,18 +241,27 @@
 - Homepage : https://about.meta.com/realitylabs/codecavatars/sapiens/
 - Paper : https://www.arxiv.org/abs/2408.12569
 
+<a name="Video"></a>
 ## Video
-**https://lzhangbj.github.io/projects/asva/asva.html**
+**Audio-Synchronized Visual Animation**
 - Homepage : https://lzhangbj.github.io/projects/asva/asva.html
 - Paper : https://arxiv.org/abs/2403.05659
+
+**Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets**
+- Homepage : https://daveishan.github.io/avr-webpage/
+- Paper : https://www.crcv.ucf.edu/wp-content/uploads/2018/11/avr_eccv24_dave.pdf
 
 **ActionVOS: Actions as Prompts for Video Object Segmentation**
 - Homepage : https://github.com/ut-vision/ActionVOS
 - Paper : https://arxiv.org/abs/2407.07402
 
+**DEVIAS: Learning Disentangled Video Representations of Action and Scene**
+- Homepage : https://github.com/KHU-VLL/DEVIAS
+- Paper : https://arxiv.org/abs/2312.00826
+
 **MotionDirector: Motion Customization of Text-to-Video Diffusion Models**
 - Homepage : https://showlab.github.io/MotionDirector/
-- Paper 
+- Paper : 
 
 **SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion**
 - Homepage : https://sv3d.github.io/
@@ -222,3 +274,29 @@
 **Video Editing via Factorized Diffusion Distillation**
 - Homepage : https://fdd-video-edit.github.io/
 - Paper : https://arxiv.org/abs/2403.09334
+
+**Towards Neuro-Symbolic Video Understanding**
+- Homepage : https://utaustin-swarmlab.github.io/nsvs-project-page.github.io/
+- Paper : https://arxiv.org/abs/2403.11021
+
+<a name="MLLM"></a>
+## LLM & MLLM
+**BRAVE: Broadening the visual encoding of vision-language models**
+- Homepage : https://brave-vlms.epfl.ch/
+- Paper : https://arxiv.org/abs/2404.07204
+
+**Strengthening Multimodal Large Language Model with Bootstrapped Preference Optimization**
+- Paper : https://arxiv.org/abs/2403.08730
+
+**Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Models**
+- Paper : https://arxiv.org/abs/2312.07408
+
+**Towards Goal-oriented Large Language Model Prompting: A Survey**
+- Paper : https://arxiv.org/abs/2401.14043v1
+
+
+<a name="Transformer"></a>
+## Transformer
+**Denoising Vision Transformers**
+- Homepage : https://jiawei-yang.github.io/DenoisingViT/
+- Paper : https://arxiv.org/abs/2401.02957
