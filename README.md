@@ -1,13 +1,14 @@
 # ECCV-2024-Oral
 - [2D Scene Understanding](#2DSU)
 - [3D Scene Understanding](#3DSU)
-- [NeRF & Gaussian](#NG)
+- [NeRF/Gaussian](#NG)
 - [2D Generation](#Gen)
 - [3D Generation](#3DGen)
 - [Human](#Human)
 - [Video](#Video)
-- [MLLM](#MLLM)
+- [LLM/MLLM/VLM](#MLLM)
 - [Transformer](#Transformer)
+- [Diffusion](#Diffusion)
 
 <a name="2DSU"></a>
 ## 2D Scene Understanding
@@ -31,6 +32,9 @@
 - Homepage : https://vlislab22.github.io/Any2Seg/
 - Paper : https://arxiv.org/abs/2407.11351
 
+**OmniSSR: Zero-shot Omnidirectional Image Super-Resolution using Stable Diffusion Model**
+- Paper : https://arxiv.org/abs/2404.10312
+
 **Collaborative Vision-Text Representation Optimizing for Open-Vocabulary Segmentation**
 - Homepage : https://github.com/jiaosiyu1999/MAFT-Plus
 - Paper : https://arxiv.org/abs/2408.00744
@@ -50,6 +54,10 @@
 **An Adaptive Correspondence Scoring Framework for Unsupervised Image Registration of Medical Images**
 - Homepage : https://voldemort108x.github.io/AdaCS/
 - Paper : https://arxiv.org/abs/2312.00837
+
+**HiT-SR: Hierarchical Transformer for Efficient Image Super-Resolution**
+- Homepage : https://github.com/XiangZ-0/HiT-SR
+- Paper : https://arxiv.org/abs/2407.05878
 
 **Towards Open-ended Visual Quality Comparison**
 - Homepage : https://co-instruct.github.io/
@@ -131,7 +139,7 @@
 - Paper : https://arxiv.org/abs/2404.10527
 
 <a name="NG"></a>
-## NeRF & Gaussian
+## NeRF / Gaussian
 **Gaussian Frosting: Editable Complex Radiance Fields with Real-Time Rendering**
 - Homepage : https://anttwo.github.io/frosting/
 - Paper : https://arxiv.org/abs/2403.14554
@@ -162,6 +170,10 @@
 - Homepage : https://github.com/Stability-AI/generative-models
 - Paper : https://arxiv.org/abs/2311.17042
 
+**Adversarial Robustification via Text-to-Image Diffusion Models**
+- Homepage : https://github.com/ChoiDae1/robustify-T2I
+- Paper : https://arxiv.org/abs/2407.18658
+
 **TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering**
 - Homepage : https://jingyechen.github.io/textdiffuser2/
 - Paper : https://arxiv.org/abs/2311.16465
@@ -189,9 +201,19 @@
 - Homepage : https://vision.cs.utexas.edu/projects/action2sound/
 - Paper : https://arxiv.org/abs/2406.09272
 
+**Parrot: Pareto-optimal Multi-Reward Reinforcement Learning Framework for Text-to-Image Generation**
+- Homepage : https://huggingface.co/papers/2401.05675
+- Paper : https://arxiv.org/abs/2401.05675
+
+**R.A.C.E.: Robust Adversarial Concept Erasure for Secure Text-to-Image Diffusion Model**
+- Homepage : https://github.com/chkimmmmm/R.A.C.E
+- Paper : https://arxiv.org/abs/2405.16341
+
 **SemGrasp: Semantic Grasp Generation via Language Aligned Discretization**
 - Homepage : https://kailinli.github.io/SemGrasp/
 - Paper : https://arxiv.org/abs/2404.03590
+
+
 
 <a name="3DGen"></a>
 ## 3D Generation
@@ -210,6 +232,9 @@
 **COHO: Context-Sensitive City-Scale Hierarchical Urban Layout Generation**
 - Homepage : https://arking1995.github.io/ContextLayout/
 - Paper : https://arxiv.org/abs/2407.11294
+
+**A Riemannian Approach for Spatiotemporal Analysis and Generation of 4D Tree-shaped Structures**
+- Paper : https://www.arxiv.org/abs/2408.12443
 
 <a name="Human"></a>
 ## Human
@@ -241,11 +266,39 @@
 - Homepage : https://about.meta.com/realitylabs/codecavatars/sapiens/
 - Paper : https://www.arxiv.org/abs/2408.12569
 
+**Arc2Face: A Foundation Model for ID-Consistent Human Faces**
+- Homepage : https://arc2face.github.io/
+- Paper : https://arxiv.org/abs/2403.11641
+
 <a name="Video"></a>
 ## Video
+**PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation**
+- Homepage : https://physdreamer.github.io/
+- Paper : https://arxiv.org/abs/2404.13026
+
 **Audio-Synchronized Visual Animation**
 - Homepage : https://lzhangbj.github.io/projects/asva/asva.html
 - Paper : https://arxiv.org/abs/2403.05659
+
+**LongVLM: Efficient Long Video Understanding via Large Language Models**
+- Homepage : https://github.com/ziplab/LongVLM
+- Paper : https://arxiv.org/abs/2404.03384
+
+**ControlNet-XS: Rethinking the Control of Text-to-Image Diffusion Models as Feedback-Control Systems**
+- Homepage : https://vislearn.github.io/ControlNet-XS/
+- Paper : https://arxiv.org/abs/2312.06573
+
+**Animal Avatars: Reconstructing Animatable 3D Animals from Casual Videos**
+- Homepage : https://remysabathier.github.io/animalavatar.github.io/
+- Paper : https://arxiv.org/abs/2403.17103
+
+**E3M: Zero-Shot Spatio-Temporal Video Grounding**
+- Homepage : https://github.com/baopj/E3M?tab=readme-ov-file#e3m-zero-shot-spatio-temporal-video-grounding
+- Paper : https://baopj.github.io/files/ECCV24_E3M_ZeroSTVG.pdf
+
+**Classification Matters: Improving Video Action Detection with Class-Specific Attention**
+- Homepage : https://jinsingsangsung.github.io/ClassificationMatters/
+- Paper : https://arxiv.org/abs/2407.19698
 
 **Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets**
 - Homepage : https://daveishan.github.io/avr-webpage/
@@ -261,7 +314,11 @@
 
 **MotionDirector: Motion Customization of Text-to-Video Diffusion Models**
 - Homepage : https://showlab.github.io/MotionDirector/
-- Paper : 
+- Paper : https://arxiv.org/abs/2310.08465
+
+**Made to Order: Discovering monotonic temporal changes via self-supervised video ordering**
+- Homepage : https://github.com/charigyang/made2order
+- Paper : https://arxiv.org/abs/2404.16828
 
 **SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion**
 - Homepage : https://sv3d.github.io/
@@ -280,10 +337,26 @@
 - Paper : https://arxiv.org/abs/2403.11021
 
 <a name="MLLM"></a>
-## LLM & MLLM
+## LLM / MLLM / VLM
+**MMBench: Is Your Multi-modal Model an All-around Player?**
+- Homepage : https://github.com/open-compass/MMBench
+- Paper : https://arxiv.org/abs/2307.06281
+
 **BRAVE: Broadening the visual encoding of vision-language models**
 - Homepage : https://brave-vlms.epfl.ch/
 - Paper : https://arxiv.org/abs/2404.07204
+
+**Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models**
+- Homepage : https://omniview-tuning.github.io/
+- Paper : https://arxiv.org/abs/2404.12139
+
+**An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models**
+- Homepage : https://github.com/pkunlp-icler/FastV
+- Paper : https://arxiv.org/abs/2403.06764
+
+**Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models**
+- Homepage : https://arxiv.org/abs/2403.09792
+- Paper : https://github.com/AoiDragon/HADES
 
 **Strengthening Multimodal Large Language Model with Bootstrapped Preference Optimization**
 - Paper : https://arxiv.org/abs/2403.08730
@@ -294,9 +367,14 @@
 **Towards Goal-oriented Large Language Model Prompting: A Survey**
 - Paper : https://arxiv.org/abs/2401.14043v1
 
-
 <a name="Transformer"></a>
 ## Transformer
 **Denoising Vision Transformers**
 - Homepage : https://jiawei-yang.github.io/DenoisingViT/
 - Paper : https://arxiv.org/abs/2401.02957
+
+<a name="Diffusion"></a>
+## Diffusion
+**Concept Arithmetics for Circumventing Concept Inhibition in Diffusion Models**
+- Homepage : https://cs-people.bu.edu/vpetsiuk/arc/
+- Paper : https://arxiv.org/abs/2404.13706
